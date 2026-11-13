@@ -1,0 +1,7 @@
+"Tahap","Input","Output","Ukuran_MB","Metrik_Kunci"
+"0. Data Mentah","-","FASTQ",473.027,"Total Read: 1.500.000"
+"1. Pre-processing","FASTQ","Clean FASTQ",92.249,"Read Lolos: 1.381.200 (92.08%)"
+"2. Read Alignment","Clean FASTQ","SAM",467.503,"Mapped Reads: 346.034 (23.27%)"
+"3. Compression & Sorting","SAM","Sorted BAM",81.875,"Coverage Depth: 16.12x (Breadth 79.9%)"
+"4. Indexing","Sorted BAM","BAI",0.007,"Indeks Koordinat Genomik (.bai)"
+"5. Variant Calling","Sorted BAM","VCF",0.465,"Total SNV/InDel: 7001 (Ts/Tv: 0.78)"

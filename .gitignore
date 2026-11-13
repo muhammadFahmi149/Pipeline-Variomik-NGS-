@@ -15,3 +15,11 @@
 # Abaikan isi results, kecuali file yang ditentukan
 /results/*
 !/results/clean_sample.fastq.gz
+
+!/reports/*.png
+
+render.log
+*.log
+
+!/results/detected_variants.vcf
+!/results/*.csv
